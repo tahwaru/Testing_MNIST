@@ -1,0 +1,11 @@
+name: dl_test
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - tensorflow==2.2.0
+  - tensorflow-datasets==1.2.0
+  - matplotlib==3.3.4
+  - pip
+  - pip:
+    - fabric==2.6.0
